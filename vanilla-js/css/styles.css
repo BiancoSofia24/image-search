@@ -1,0 +1,73 @@
+body {
+   width: 80%;
+   margin: 2em auto 0 auto;
+   font-family: Nunito;
+}
+
+.titulo {
+   font-family: Nunito;
+   text-align: center;
+   border-bottom: 3px solid #025c50;
+   padding: 10px;
+   margin-bottom: 25px;
+}
+
+.btn {
+   border: 1px solid #025c50;
+   font-family: Nunito;
+}
+
+   .btn:hover {
+      background-color:  #025c50;
+      color: #fff;
+   }
+
+.cargando {
+   width: 40%;
+   margin: 20px auto;
+}
+
+.imagenes {
+   column-count: 4;
+}
+
+img {
+   width: 100%;
+}
+
+.footer {
+   border-top: 3px solid #025c50;
+   font-family: Nunito;
+   padding: 20px;
+}
+   
+   .footer p {
+      text-align: center;
+   }
+
+.emoji {
+   font-size: 18px;
+   color: #DD2E44;
+}
+
+@media (max-width: 1200px) {
+   .imagenes {
+      column-count: 3;
+   }
+}
+
+@media (max-width: 800px) {
+   .imagenes {
+      column-count: 2;
+   }
+}
+
+/* Index */
+.index-link {
+   text-decoration: none;
+   color: #000;
+}
+
+   .index-link:hover {
+      color: #444;
+   }
